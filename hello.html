@@ -1,11 +1,75 @@
-<!DOCTYPE>
 <!DOCTYPE html>
 <html>
 <head>
 	<title>my new website</title>
+	<style>
+		h1	{
+			text-align: center;
+			color: lightgreen;
+			border:3px solid red;
+			border-radius:50px;
+			margin:30px;
+		}
+		table{
+			border:5px solid black;
+			border-radius:50px;
+			text-align:center;
+			width:92%;
+			margin:30px;
+            border-collapse: collapse;
+
+
+		}
+		th,td,li{
+			border:5px solid red;
+			border-radius:50px;
+			font-weight:5px;
+			padding :10px;
+			font-weight: bold;
+			font-size: 20px;
+			border-collapse: collapse;
+			text-align:center;
+
+		}
+		.serial{
+			width:20%;
+		}
+
+		#navbar {
+			font-weight: bold;
+			padding:25px;
+			margin:20px;
+		}
+		.nav{
+			margin-bottom:50px; 
+
+		}
+
+	</style>
 </head>
 <body>
-  <h1> hello world</h1>
-	<h2>new line </h2>
+  <h1> MY website </h1>
+  <div class = 'nav'>
+       <span id = "navbar">
+       	<ul>
+      	<tr><li>Home</li></tr>
+  	    <tr><li>support</li></tr>
+  	    <tr><li>contact</li></tr>
+  	</ul>
+     </span>
+ </div>
+	<table>
+		<tr>
+		<th class = "serial">serial no.</th>
+		<th>first name </th>
+		<th>Last name</th>
+	</tr>
+	<tr>
+		<td>1</td>
+		<td>Sanjeet </td>
+		<td>Kumar</td>
+	</tr>
+
+	</table>
 </body>
 </html>
